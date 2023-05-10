@@ -1,0 +1,75 @@
+<?php
+
+include "../BDD/connexion.php";
+
+$sqlQuery = 'SELECT * FROM categories WHERE id_decat != 6';
+$result = $pdo->prepare($sqlQuery);
+$result->execute();
+$etudiants = $result->fetchAll();
+
+
+?>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Akakatsuki</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="back">
+  <?php
+  require('../html_partials/menu.php')
+    ?>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9 col-sm-9">
+        <div class="row">
+
+          <div class="col-md-9 col-sm-9">
+            <h1>Les Villages</h1>
+            <img src="../image/Carte_du_Monde_de_Naruto.jpg" class="bd-placeholder-img img-thumbnail" alt="Bootstrap"
+              width="700px" height="700px">
+            <div>
+              <br>
+
+              <h3>
+                Le monde Naruto est un monde vaste et remplis de differents pays mais aujourd'hui seuls les 5 grands
+                pays nous intersse avec leur villages ninja.
+              </h3>
+
+            </div>
+
+
+            <?php
+            $i = 0;
+            foreach ($etudiants as $image) {
+
+              $imaget = $image['bin'];
+              echo '<h4> ', $image['intitulé'], ' </h4>';
+              echo '<div class="imgperso col-md-3 col-sm-3">
+              <img src="data:image/png;charset=utf8;base64,', base64_encode($imaget), '" class="bd-placeholder-img img-thumbnail" alt="Bootstrap" width="325px" height="435px" >
+              </div>';
+
+              echo '<p> ', $image['description'], ' </p>';
+
+              $i++;
+            }
+
+            ?>
+
+          </div>
+        </div>
+      </div>
+
+      <?php
+      require('../html_partials/sidebar.php')
+        ?>
+    </div>
+  </div>
+  <?php
+  require('../html_partials/footer.php')
+    ?>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>

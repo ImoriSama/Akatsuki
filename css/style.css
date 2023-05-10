@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.css-navbar{
+
+    background-color: #090908;
+
+    box-shadow: 2px 2px 3px #B83232;
+
+}
+
+
+
+.css-navbar .nav-link{
+
+    border-bottom: 1px solid transparent;
+
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+
+}
+
+
+.css-navbar .nav-link:hover {
+
+    padding-bottom: 20px;
+
+    border-bottom-color: #B83232;
+
+    text-decoration: line-through #2D2F39;
+
+    color: #DFE1E1;
+
+}
+
+
+
+.css-text{
+
+    font-family: 'Raleway';
+
+    font-weight: bold;
+
+    font-size: 50px;
+
+    color: #DFE1E1;
+
+}
+
+.css-pages{
+
+    font-family: 'Raleway';
+
+    font-weight: bold;
+
+    color: #DFE1E1;
+
+    font-size: 20px;
+    --bs-nav-link-hover-color:
+        #DFE1E1;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.imgperso {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #4d9e9b;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.banner{
+    background: url(../image/rZ2axH.png) ;
+    background-size: cover;
+}
+
+.form{
+    padding: 120px;
+}
+
+.back{
+    background-color:#797d81  ;
+
+}
+.photo{
+    display: block;
+    margin: 0px auto;
+    position: static;
+    border-radius: 50px;
+
+}
+
+.footer{
+    background-color:#000000  ;
+    margin-top: 100px;
+
+}
+
+.marg-50{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.marg-100{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.marg-150{
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.marg-200{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.marg-bt-50{
+    margin-bottom: 50px;
+}
+.marg-bt-100{
+    margin-bottom: 100px;
+}
+.marg-bt-150{
+    margin-bottom: 150px;
+}
+.marg-bt-200{
+    margin-bottom: 200px;
+}
+
+.marg-tp-50{
+    margin-top: 50px;
+}
+.marg-tp-100{
+    margin-top: 100px;
+}
+.marg-tp-150{
+    margin-top: 150px;
+}
+.marg-tp-200{
+    margin-top: 200px;
+}
+
+p{
+    font-size: large;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+#fonside{
+   background-color: #000000;
+
+}
+#sidetext{
+    color: #ffffff;
+ 
+ }

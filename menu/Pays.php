@@ -25,12 +25,13 @@ $etudiants = $result->fetchAll();
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-sm-9">
-        <div class="row">
-
-          <div class="col-md-9 col-sm-9">
+            <div class="marg-50"></div>
+            <center class="marg-both-50">
             <h1>Les Villages</h1>
+            <div class="marg-100"></div>
             <img src="../image/Carte_du_Monde_de_Naruto.jpg" class="bd-placeholder-img img-thumbnail" alt="Bootstrap"
               width="700px" height="700px">
+            <div class="marg-50"></div>
             <div>
               <br>
 
@@ -50,17 +51,15 @@ $etudiants = $result->fetchAll();
               echo '<h4> ', $image['intitulé'], ' </h4>';
               echo '<div class="imgperso col-md-3 col-sm-3">
               <img src="data:image/png;charset=utf8;base64,', base64_encode($imaget), '" class="bd-placeholder-img img-thumbnail" alt="Bootstrap" width="325px" height="435px" >
-              </div>';
+              </div> <div class="marg-20"></div>';
 
-              echo '<p> ', $image['description'], ' </p>';
+              echo '<p> ', $image['description'], ' </p> <div class="marg-50"></div>';
 
               $i++;
             }
 
             ?>
-
-          </div>
-        </div>
+          </center>
       </div>
 
       <?php

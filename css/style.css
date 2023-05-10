@@ -239,6 +239,11 @@
     opacity: 0;
 }
 
+.marg-20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .marg-50{
     margin-bottom: 50px;
     margin-top: 50px;
@@ -303,8 +308,8 @@ p{
     font-size: large;
 }
 
-.akatsuki {
-    color: white;
+.maintenance {
+    color:lightcoral;
 }
 
 html,

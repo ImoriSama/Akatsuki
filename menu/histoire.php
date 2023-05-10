@@ -14,20 +14,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-sm-9">
-        <div class="row">
-          <div class="col-md-9 col-sm-9">
 
 
+            <center><h1 class="marg-100">Cette page est actuellement en <span class="maintenance">maintenance</span></h1></center>
 
-
-
-
-
-
-
-
-          </div>
-        </div>
+</div>
         <?php
         require('../html_partials/sidebar.php')
           ?>

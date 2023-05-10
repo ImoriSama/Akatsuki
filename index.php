@@ -28,7 +28,7 @@
           <div class="row">           
             <div class="col-md-9 col-sm-9"> 
               <div class="text-center marg-both-50">
-              <h1>Bienvenue sur <span class="akatsuki">Akatuski</span></h1>
+              <h1>Bienvenue sur <span class="text-white">Akatsuki</span></h1>
               <div class="marg-bt-50"></div>
               <h2><u>Le site référence</u> pour en apprendre plus sur l'Akatsuki</h2>
               <h4><i>C'est quoi? C'est qui?</i></h4>

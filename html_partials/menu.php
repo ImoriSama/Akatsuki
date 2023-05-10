@@ -49,7 +49,7 @@ $categ = $ver->fetchAll();
       </li>
 
       <li class="nav-item pe-2">
-        <a class="css-pages nav-link" href="/aka/Akatsuki/script/pageadmin.php">connexion admin</a>
+        <a class="css-pages nav-link" href="/aka/Akatsuki/script/pageadmin.php">Admin</a>
       </li>
 
     </ul>

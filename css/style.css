@@ -8,6 +8,20 @@
 
 }
 
+.titre {
+    top: 200px;
+    position: relative;
+    font-family: 'Fredoka One', serif;
+}
+
+.background-accueil {
+    background-image: url(../image/banner.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:100%;
+}
+
 
 
 .css-navbar .nav-link{
@@ -117,6 +131,112 @@
     background-color:#000000  ;
     margin-top: 100px;
 
+}
+
+@keyframes movingimg {
+    50% {
+      opacity: 0;
+      left: 800px;
+    }
+  
+    60% {
+      opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+        left: 800px;
+    }
+
+    95% {
+        opacity: 0.2;
+        left: 0px;
+    }
+  
+    100% {
+      opacity: 0;
+      left: 0px;
+    }
+  }
+
+.moving {
+    z-index: 0;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    height: 20%;
+    width: 5%;
+    animation-name: movingimg;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+
+@keyframes narutoimg {
+    40% {
+        opacity: 0;
+    }
+
+    45% {
+      opacity: 1;
+      background-image: url("../image/naruto1.png");
+      top: 119px;
+      height: 8%;
+        width: 3%;
+    }
+  
+    55% {
+      opacity: 1;
+      background-image: url("../image/naruto1.png");
+      height: 8%;
+        width: 3%;
+    }
+
+    60% {
+        opacity: 1;
+        background-image: url("../image/naruto1.png");
+        height: 8%;
+        width: 3%;
+    }
+
+    65% {
+        opacity: 1;
+        background-image: url("../image/naruto2.png");
+        height: 9%;
+        width: 7%;
+    }
+
+    70% {
+        top: 420px;
+    }
+
+    100% {
+      opacity: 0;
+      background-image: url("../image/naruto2.png");
+        top: 410px;
+        height: 9%;
+        width: 7%;
+    }
+  }
+
+.naruto {
+    background-image: url("../image/naruto1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    position: absolute;
+    top: 119px;
+    left: 1033px;
+    height: 8%;
+    width: 3%;
+    animation-name: narutoimg;
+    animation-iteration-count:infinite;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    opacity: 0;
 }
 
 .marg-50{

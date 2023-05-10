@@ -10,7 +10,20 @@
     require('./html_partials/menu.php')
     ?>
       <div>
-        <img src="image/bannier.jpg" class="img-fluid photo marg-bt-50" alt="..."></div>
+
+      <div class="bg-image background-accueil"></div>
+      <div class="container marg-bt-100">
+        <img src="image/itachibg.png" class="moving">
+        <div class="naruto"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+        <!--<img src="image/bannier.jpg" class="img-fluid photo marg-bt-50" alt="..."></div>-->
         <div class="container-fluid">
           <div class="row">           
             <div class="col-md-9 col-sm-9"> 

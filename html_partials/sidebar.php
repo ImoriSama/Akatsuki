@@ -3,7 +3,7 @@
         <h4>Source</h4>
         <p>La majorité des informations de se site viennent de <a href="https://naruto.fandom.com/fr/wiki/Accueil">
                 Fandom Naruto</a> </p>
-        <h4>Volume</h4>
+        <h4>Volumes</h4>
         <p>L'entierter des volume de <a href="https://www.nautiljon.com/mangas/naruto.html">Naruto</a></p>
     </div>
 </div>

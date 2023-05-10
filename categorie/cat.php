@@ -64,9 +64,12 @@ if (isset($_GET["id"])) {
       <?php
       require('../html_partials/sidebar.php')
         ?>
-    </div>
+      <div class="marg-200"></div>
+  <div class="marg-100"></div>
+</div>
 
   </div>
+
   <?php
   require('../html_partials/footer.php')
     ?>

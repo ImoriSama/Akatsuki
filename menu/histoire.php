@@ -22,6 +22,8 @@
         <?php
         require('../html_partials/sidebar.php')
           ?>
+            <div class="marg-200"></div>
+            <div class="marg-50"></div>
       </div>
     </div>
   </div>

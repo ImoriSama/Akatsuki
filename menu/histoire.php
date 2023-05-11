@@ -10,7 +10,7 @@
 
 <body class="back">
   <?php
-  require('../html_partials/menu.php')
+  include('../html_partials/menu.php')
     ?>
   <div class="container-fluid">
     <div class="row">

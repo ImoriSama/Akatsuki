@@ -16,12 +16,17 @@ unset($files[2]);
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<center><h1>Voici la page Admin</h1></center>
+<center><h1 class="marg-150">Voici la page Admin</h1>
 
+<table>
+    <tr>
 <?php
 
 foreach ($files as $value) {
-    echo "<a href='../modif/".$value."'>".$value."</a><br/><br/>";
+    echo "<td><a href='../modif/".$value."' class='marg-both-50'>".$value."</a></td>";
 }
 
 ?>
+</tr>
+</table>
+</center>

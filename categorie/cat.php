@@ -7,7 +7,7 @@ $sql = new PDO(
 );
 
 
-if (isset($_GET["id"])) {
+
 
   $id = $_GET['id'];
 
@@ -15,14 +15,11 @@ if (isset($_GET["id"])) {
   $ver = $sql->prepare($sqlQuery);
   $ver->execute([$id]);
   $image = $ver->fetchAll();
+  $total = $ver->rowCount();
 
 
-} else {
-  $sqlQuery = 'SELECT * FROM images';
-  $ver = $sql->prepare($sqlQuery);
-  $ver->execute();
-  $image = $ver->fetchAll();
-}
+
+
 
 ?>
 <html>
@@ -47,6 +44,7 @@ if (isset($_GET["id"])) {
 
 
           <?php
+                    if ($total>0){
           $i = 0;
           foreach ($image as $image) {
 
@@ -57,6 +55,7 @@ if (isset($_GET["id"])) {
               </div>';
             $i++;
           }
+        }else{ echo "<h1 text='align-center'> il n'y a pas de personnages venant de se pays </h1>" ;}
 
           ?>
         </div>

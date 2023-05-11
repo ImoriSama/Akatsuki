@@ -7,9 +7,9 @@ $result = $pdo->prepare($sqlQuery);
 $result->execute();
 $etudiants = $result->fetchAll();
 
-$total = $ver->rowCount();
+$total = $result->rowCount();
 
-if ($total>0){
+
 
 
 ?>
@@ -33,6 +33,7 @@ if ($total>0){
 
 
           <?php
+          if ($total>0){
           $i = 0;
           foreach ($etudiants as $image) {
 
@@ -42,7 +43,7 @@ if ($total>0){
               </div>';
             $i++;
           }
-        }else{ echo "il n'y a pas de personnages venant de se pays" ;}
+        }else{ echo "il n'y a pas de personnages pour le momment" ;}
 
           ?>
         </div>

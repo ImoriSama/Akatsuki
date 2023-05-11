@@ -14,6 +14,7 @@ unset($files[2]);
     <title>Admin</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../image/icon.ico">
 </head>
 
 <center><h1 class="marg-150">Voici la page Admin</h1>

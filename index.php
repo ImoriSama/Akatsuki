@@ -4,6 +4,7 @@
         <title>Akakatsuki</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="image/icon.ico">
     </head>
     <body class="back">
     <?php

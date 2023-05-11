@@ -54,7 +54,8 @@ $zone = $result->fetchAll();
             </th>
       </tr>
     </table>
-      <input type="submit" name="valider" value="charger">
+      <input type="submit" name="valider" value="Charger">
+      <button type="button">oui</button>
     </form>
   </body>
 <html>

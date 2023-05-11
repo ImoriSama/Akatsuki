@@ -52,7 +52,7 @@ echo "  <form name='fo' method='post' action='' enctype='multipart/form-data'>
     </th>
   </tr>
 </table>
-<input type='submit' name='valider' value='charger'>
+<input type='submit' name='valider' value='Charger'>
 <a href='../../script/redirect.php'><button type='button'>Retour</button></a>
 </form>
 </body>";

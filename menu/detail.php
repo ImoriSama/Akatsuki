@@ -37,23 +37,16 @@ $categ = $ver->fetchAll();
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-sm-9">
-        <div class="row">
-          <div class="col-md-9 col-sm-9">
             <?php echo
-              '<img src="data:image/jpg;charset=utf8;base64,', base64_encode($image[0]['bin']), '"class="bd-placeholder-img img-thumbnail" alt="Bootstrap" width="325px" height="435px">
+              '<center><img src="data:image/jpg;charset=utf8;base64,', base64_encode($image[0]['bin']), '"class="marg-20 bd-placeholder-img img-thumbnail" alt="Bootstrap" width="325px" height="435px">
                 <div>
-                  <div><a href="../categorie/cat.php?id=', $image[0]['id_cat'], '"> ', $categ[$image[0]["id_cat"] - 1]["intitulé"], ' </a></div>
+                  <div class="marg-20"><a href="../categorie/cat.php?id=', $image[0]['id_cat'], '"> ', $categ[$image[0]["id_cat"] - 1]["intitulé"], ' </a></div>
 
-                    ', $image[0]["description"], '
+                    <p class="marg-both-50">', $image[0]["description"], '</p>
   
                 </div>
-              </div>'; ?>
+              </div></center>'; ?>
 
-
-
-
-          </div>
-        </div>
         <?php
         require('../html_partials/sidebar.php')
           ?>

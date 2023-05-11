@@ -7,6 +7,10 @@ $result = $pdo->prepare($sqlQuery);
 $result->execute();
 $etudiants = $result->fetchAll();
 
+$sqlQuery = 'SELECT * FROM autre ';
+$result = $pdo->prepare($sqlQuery);
+$result->execute();
+$map = $result->fetchAll();
 
 ?>
 <html>
@@ -29,8 +33,8 @@ $etudiants = $result->fetchAll();
             <center class="marg-both-50">
             <h1>Les Villages</h1>
             <div class="marg-100"></div>
-            <img src="../image/Carte_du_Monde_de_Naruto.jpg" class="bd-placeholder-img img-thumbnail" alt="Bootstrap"
-              width="700px" height="700px">
+           <?php echo '<img src="data:image/png;charset=utf8;base64,', base64_encode($map), '" class="bd-placeholder-img img-thumbnail" alt="Bootstrap"
+              width="700px" height="700px">' ?>
             <div class="marg-50"></div>
             <div>
               <br>

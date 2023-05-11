@@ -45,3 +45,5 @@ foreach ($image as $imageo) {
 echo "</table>";
 
 ?>
+
+<a href="../script/redirect.php"><button type="button">Retour</button></a>

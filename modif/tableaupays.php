@@ -39,3 +39,5 @@ foreach ($categ as $catego) {
 echo "</table>";
 
 ?>
+
+<a href="../script/redirect.php"><button type="button">Retour</button></a>

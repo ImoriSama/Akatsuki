@@ -37,3 +37,5 @@ foreach ($autre as $autro) {
 echo "</table>";
 
 ?>
+
+<a href="../script/redirect.php"><button type="button">Retour</button></a>

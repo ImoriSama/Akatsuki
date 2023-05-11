@@ -43,7 +43,8 @@ if (isset($_POST["valider"])) {
 
 
     </table>
-    <input type="submit" name="valider" value="charger">
+    <input type="submit" name="valider" value="Charger">
+    <a href="../script/redirect.php"><button type="button">Retour</button></a>
   </form>
 </body>
 <html>

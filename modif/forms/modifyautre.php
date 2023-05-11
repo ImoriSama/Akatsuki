@@ -35,7 +35,7 @@ echo "<form name='fo' method='post' action='' enctype='multipart/form-data'>
   <th>Name</th>
   <tr>
 
-    <th><textarea name='description' rows='5' cols='33' required> ",$autro['intitulé']," </textarea></th>
+    <th><textarea name='intitulé' rows='5' cols='33' required> ",$autro['intitulé']," </textarea></th>
   </tr>
 
 </table>

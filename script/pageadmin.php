@@ -18,11 +18,11 @@ $password = " ";
 <form class="marg-150" method="post" action="conexadmin.php">
     <table>
         <tr>
-            <td>Login</td>
+            <td><p>Login</p></td>
             <td><input type="text" required name="username"></td>
         </tr>
         <tr>
-            <td>code access</td>
+            <td><p>Code access</p></td>
             <td><input type="password" required name="pass"></td>
         </tr>
         <tr>

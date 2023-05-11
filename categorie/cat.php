@@ -29,6 +29,7 @@ $sql = new PDO(
   <title>Akakatsuki</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/x-icon" href="../image/icon.ico">
   <script defer src="../js/bootstrap.bundle.min.js"></script>
 
 </head>

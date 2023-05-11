@@ -29,4 +29,5 @@ foreach ($files as $value) {
 ?>
 </tr>
 </table>
+<div class="marg-50"><a href='../index.php'>Retour</a></div>
 </center>

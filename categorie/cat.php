@@ -55,7 +55,7 @@ $sql = new PDO(
               </div>';
             $i++;
           }
-        }else{ echo "<h1 text='align-center'> il n'y a pas de personnages venant de se pays </h1>" ;}
+        }else{ echo "<center><div class='marg-50'><h1> Il n'y a pas de personnages venant de se pays </h1></div><center>" ;}
 
           ?>
         </div>

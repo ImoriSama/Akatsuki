@@ -43,7 +43,7 @@ $total = $result->rowCount();
               </div>';
             $i++;
           }
-        }else{ echo "il n'y a pas de personnages pour le momment" ;}
+        }else{ echo "<center><div class='marg-50'><h1> Il n'y a pas de personnages venant de se pays </h1></div><center>" ;}
 
           ?>
         </div>

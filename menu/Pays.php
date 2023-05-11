@@ -60,7 +60,7 @@ $map = $result->fetchAll();
             $imaget = $image['bin'];
             echo '<h4> ', $image['intitulé'], ' </h4>';
             echo '<div class="imgperso col-md-3 col-sm-3">
-              <img src="data:image/png;charset=utf8;base64,', base64_encode($imaget), '" class="bd-placeholder-img img-thumbnail" alt="Bootstrap" width="325px" height="435px" >
+              <img src="data:image/png;charset=utf8;base64,', base64_encode($imaget), '" class="img-pays" alt="Bootstrap" width="325px" height="435px" >
               </div> <div class="marg-20"></div>';
 
             echo '<p> ', $image['description'], ' </p> <div class="marg-50"></div>';

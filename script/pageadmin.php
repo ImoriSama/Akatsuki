@@ -5,9 +5,17 @@ $annuler = "Annuler ";
 $log = " ";
 $password = " ";
 ?>
+<html>
 
-
-<form method="post" action="conexadmin.php">
+<head>
+  <meta charset="UTF-8">
+  <title>Akakatsuki</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="back">
+<center>
+<form class="marg-150" method="post" action="conexadmin.php">
     <table>
         <tr>
             <td>Login</td>
@@ -22,7 +30,8 @@ $password = " ";
             <td><input type="reset" name="Annuler"></td>
         </tr>
 </form>
-
+</center>
+</body>
 <?php
 
 

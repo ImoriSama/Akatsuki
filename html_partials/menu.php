@@ -41,7 +41,7 @@ $categ = $ver->fetchAll();
                 href="/aka/Akatsuki/categorie/cat.php?id=<?php echo "", $catego['id_decat'], "" ?>"><?php echo "", $catego['intitulé'], "" ?></a></li>
           <?php } ?>
           <li><a class="dropdown-item"
-                href="/aka/Akatsuki/menu/personnages.php"> Touts </a> </li>
+                href="/aka/Akatsuki/menu/personnages.php"> Tous </a> </li>
 
           <li>
             <hr class="dropdown-divider">

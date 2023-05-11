@@ -7,7 +7,7 @@ $result = $pdo->prepare($sqlQuery);
 $result->execute();
 $etudiants = $result->fetchAll();
 
-$sqlQuery = 'SELECT * FROM autre ';
+$sqlQuery = 'SELECT * FROM autre where intitulé = bannière ';
 $result = $pdo->prepare($sqlQuery);
 $result->execute();
 $map = $result->fetchAll();

@@ -7,6 +7,10 @@ $result = $pdo->prepare($sqlQuery);
 $result->execute();
 $etudiants = $result->fetchAll();
 
+$total = $ver->rowCount();
+
+if ($total>0){
+
 
 ?>
 <html>
@@ -38,6 +42,7 @@ $etudiants = $result->fetchAll();
               </div>';
             $i++;
           }
+        }else{ echo "il n'y a pas de personnages venant de se pays" ;}
 
           ?>
         </div>
